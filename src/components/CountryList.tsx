@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { fetchCountries } from "../api/fetchCountries";
-import { Country } from "../types/Country";
+import { Country } from "../types/country";
 import CountryCard from "./CountryCard";
 
 const Container = styled.div`

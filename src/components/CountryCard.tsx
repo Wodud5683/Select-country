@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Country } from "../types/Country";
+import { Country } from "../types/country";
 
 interface CountryCardProps {
   country: Country;
